@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=DM Sans');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:#6F6AF7;
+    justify-content: space-evenly;
+    position: fixed;
+    align-items: center;
+    
+}
+.nav .title{
+    font-family: "Delius Unicase",cursive;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0em;
+}
+.opt{
+    display: inline-flex;
+    gap: 4rem;
+    list-style : none;
+    align-items: center;
+}
+.opt .abc{
+    font-family: DM Sans;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 20px;
+    
+}
+.search-box{
+    margin-top: 20px;
+    padding: 30px;
+}
+.search-box #txt{
+    width: 10em;
+    height: 1.75em;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.search-box #logo{
+    width: 1em;
+    position: relative;
+    right: 40px;
+    top: 0px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+.top .box{
+    margin-top: 30px;
+    height: 500px;
+    width: 80vw;
+    border-radius: 20px;
+    background-color: #E5D8FF;
+}
+.top .box p{
+    font-family: DM Sans;
+    font-size: 23.5px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px;
+    color: #6F7373;
+}
+
+.social{
+    display: flex;
+    position: sticky;
+    top: 150px;
+    margin-top: 40vh;
+    float: right;
+}
+.mid{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+}
+.mid1 p, .mid2 p, .mid3 p, .mid4 p{
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 700;   
+    line-height: 52px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #fff;
+    padding: 5px 20px;
+    /* box-shadow: 0px 6px 20px 0px #00000066; */
+
+}
+.mid1{
+    height: 145px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #929DFF;
+    
+}
+.mid2{
+    height: 145px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #6F6AF7;  
+}
+.mid3{
+    height: 145px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #D288FF;
+}
+.mid4{
+    height: 145px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #000;
+    box-shadow:0px 4px 10px 0px grey;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    border: black;
+    border-radius: 20px;
+    background-color: #483EFF;
+    height: 70vh;
+}
+
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30vw;
+    height: 100%;
+    margin-left: 50px;
+}
+
+
+.bottom-left1 p{
+    
+    background-color: #bce0f6;
+    width: 397px;
+    height: 133px;
+    border-radius: 22px;
+    margin-top: 20px;
+    font-family: DM Sans;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottom-left2 p{
+    width: 397px;
+    height: 133px;
+    color: #FFFFFF;
+    border-radius: 22px;
+    border: 5px solid #FFFFFF;
+    font-size: 2rem;
+    font-family: DM Sans;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box2 {
+    border-radius: 20px;
+    background-color: #fff;
+    border: 5px solid #FFFFFF;
+    margin: 20px;
+    width: 50vw;
+    height: 60vh;
+
+}
+.box2 p{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding : 10px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.data p b{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    color:#04285A;
+    
+}
+.data p{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+.box2 .next button{
+    /* width: 100px; */
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+
+}
+.help{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
